@@ -1,6 +1,5 @@
 from fabric.api import *
 
-env.hosts = ['192.168.210.103']
 env.password = "icarus123"
 
 def install_devtools():
