@@ -35,3 +35,9 @@ def install_pip_python27():
 def install_django_python27():
     sudo('/usr/local/bin/pip2.7 install django')
 
+def setup_env():
+    install_devtools()
+    install_fab_on_python26()
+    install_python27()
+    install_pip_python27()
+    install_django_python27()
