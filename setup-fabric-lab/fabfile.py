@@ -1,6 +1,5 @@
 from fabric.api import *
 
-env.password = "icarus123"
 
 def install_devtools():
     sudo('yum -y update')
