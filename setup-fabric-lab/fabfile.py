@@ -34,6 +34,10 @@ def install_pip_python27():
 def install_django_python27():
     sudo('/usr/local/bin/pip2.7 install django')
 
+def install_apache_wsgi():
+    sudo('yum –y install httpd mod_wsgi')
+
+
 def setup_env():
     install_devtools()
     install_fab_on_python26()
